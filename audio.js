@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", (() => {
     audio.autoplay = true;
     audio.loop = true;
     audio.src = source;
+    audio.volume = 0.25;
 
     var btnReady = document.getElementById('btn-ready');
 
