@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", (() => {
             var gifWalker = document.getElementById('gif-walker');
 
             wrapperBtnReady.style.display = "none";
-            gifWalker.style.display = "block";
+            gifWalker.style.display = "flex";
             gifWalker.style.position = 0;
         })
         audio.load()
