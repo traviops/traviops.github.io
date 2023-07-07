@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", (() => {
-    var source = "./media/song.mp3"
+    var source = "./assets/walking_sound.mp3"
     var audio = document.createElement("audio");
 
     audio.autoplay = true;
