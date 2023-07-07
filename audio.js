@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", (() => {
     var audio = document.createElement("audio");
 
     audio.autoplay = true;
+    audio.loop = true;
     audio.src = source;
 
     var btnReady = document.getElementById('btn-ready');
